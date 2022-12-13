@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+//   Check if the 𝑖
+//   𝑡ℎ bit of a number is 
+//   set (ie. equal to one) 
+//   or not (ie. equal to zero) 
+
 void setOrNot(int n, int k){
     if((n>>k) & 1)
         cout<<"Set";
